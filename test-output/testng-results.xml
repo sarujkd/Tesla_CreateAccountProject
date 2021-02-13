@@ -2,32 +2,32 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Tesla Suite" duration-ms="11171" started-at="2021-02-12T20:30:10 CST" finished-at="2021-02-12T20:30:22 CST">
+  <suite name="Default suite" duration-ms="11996" started-at="2021-02-12T20:55:55 CST" finished-at="2021-02-12T20:56:07 CST">
     <groups>
     </groups>
-    <test name="Tesla Create Account Test" duration-ms="11171" started-at="2021-02-12T20:30:10 CST" finished-at="2021-02-12T20:30:22 CST">
+    <test name="Default test" duration-ms="11996" started-at="2021-02-12T20:55:55 CST" finished-at="2021-02-12T20:56:07 CST">
       <class name="TestCase.CreateAccountTest">
-        <test-method status="PASS" signature="CreateReport()[pri:0, instance:TestCase.CreateAccountTest@4e7dc304]" name="CreateReport" is-config="true" duration-ms="125" started-at="2021-02-12T20:30:10 CST" finished-at="2021-02-12T20:30:11 CST">
+        <test-method status="PASS" signature="CreateReport()[pri:0, instance:TestCase.CreateAccountTest@15d0c81b]" name="CreateReport" is-config="true" duration-ms="125" started-at="2021-02-12T20:55:55 CST" finished-at="2021-02-12T20:55:55 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateReport -->
-        <test-method status="PASS" signature="Initialize_The_Browser()[pri:0, instance:TestCase.CreateAccountTest@4e7dc304]" name="Initialize_The_Browser" is-config="true" duration-ms="5037" started-at="2021-02-12T20:30:11 CST" finished-at="2021-02-12T20:30:16 CST">
+        <test-method status="PASS" signature="Initialize_The_Browser()[pri:0, instance:TestCase.CreateAccountTest@15d0c81b]" name="Initialize_The_Browser" is-config="true" duration-ms="5381" started-at="2021-02-12T20:55:55 CST" finished-at="2021-02-12T20:56:00 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Initialize_The_Browser -->
-        <test-method status="PASS" signature="test_Create_Account()[pri:0, instance:TestCase.CreateAccountTest@4e7dc304]" name="test_Create_Account" duration-ms="4964" started-at="2021-02-12T20:30:16 CST" finished-at="2021-02-12T20:30:21 CST">
+        <test-method status="PASS" signature="test_Create_Account()[pri:0, instance:TestCase.CreateAccountTest@15d0c81b]" name="test_Create_Account" duration-ms="5419" started-at="2021-02-12T20:56:00 CST" finished-at="2021-02-12T20:56:06 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_Create_Account -->
-        <test-method status="PASS" signature="close_The_Browser()[pri:0, instance:TestCase.CreateAccountTest@4e7dc304]" name="close_The_Browser" is-config="true" duration-ms="803" started-at="2021-02-12T20:30:21 CST" finished-at="2021-02-12T20:30:21 CST">
+        <test-method status="PASS" signature="close_The_Browser()[pri:0, instance:TestCase.CreateAccountTest@15d0c81b]" name="close_The_Browser" is-config="true" duration-ms="803" started-at="2021-02-12T20:56:06 CST" finished-at="2021-02-12T20:56:06 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close_The_Browser -->
-        <test-method status="PASS" signature="CloseReport()[pri:0, instance:TestCase.CreateAccountTest@4e7dc304]" name="CloseReport" is-config="true" duration-ms="209" started-at="2021-02-12T20:30:21 CST" finished-at="2021-02-12T20:30:22 CST">
+        <test-method status="PASS" signature="CloseReport()[pri:0, instance:TestCase.CreateAccountTest@15d0c81b]" name="CloseReport" is-config="true" duration-ms="235" started-at="2021-02-12T20:56:06 CST" finished-at="2021-02-12T20:56:07 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseReport -->
       </class> <!-- TestCase.CreateAccountTest -->
-    </test> <!-- Tesla Create Account Test -->
-  </suite> <!-- Tesla Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

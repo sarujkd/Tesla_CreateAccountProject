@@ -13,7 +13,7 @@ public class CreateAccountTest extends BaseTest{
 	 CreateAccountPage cp;
 	
 	@Test
-	public void test_Create_Account()    {
+	public void test_Create_Account() throws Exception    {
 		
 		 cp=new  CreateAccountPage();
    logger=report.startTest("test_Create_Account testcase is started");
@@ -39,6 +39,8 @@ public class CreateAccountTest extends BaseTest{
    
    cp.Click_PrivacyCheckBox();
    logger.log(LogStatus.INFO,"Ignored next step because of recaptcha");
+   
+   takeScreenShot(driver,"./src/ScreenShots/"+"Create_Account.png");
    
    //cp.Click_createAccntBtn();
    

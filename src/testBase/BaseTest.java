@@ -33,7 +33,7 @@ public class BaseTest {
 		public BaseTest()   {
 			try {
 			prop=new Properties();
-			FileInputStream fp= new FileInputStream("C:\\Users\\anand\\Documents\\Saru\\GitSample\\GitDemo\\TeslaAccountProject\\src\\onfig\\config.properties");
+			FileInputStream fp= new FileInputStream("C:\\Users\\anand\\Documents\\Saru\\GitSample\\GitDemo\\TeslaAccountProject\\src\\Config\\config.properties");
 				 prop.load(fp);
 			} catch (IOException e) {
 				
