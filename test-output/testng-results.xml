@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11996" started-at="2021-02-12T20:55:55 CST" finished-at="2021-02-12T20:56:07 CST">
+  <suite name="Default suite" duration-ms="50627" started-at="2021-02-20T16:21:39 CST" finished-at="2021-02-20T16:22:30 CST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11996" started-at="2021-02-12T20:55:55 CST" finished-at="2021-02-12T20:56:07 CST">
+    <test name="Default test" duration-ms="50627" started-at="2021-02-20T16:21:39 CST" finished-at="2021-02-20T16:22:30 CST">
       <class name="TestCase.CreateAccountTest">
-        <test-method status="PASS" signature="CreateReport()[pri:0, instance:TestCase.CreateAccountTest@15d0c81b]" name="CreateReport" is-config="true" duration-ms="125" started-at="2021-02-12T20:55:55 CST" finished-at="2021-02-12T20:55:55 CST">
+        <test-method status="PASS" signature="CreateReport()[pri:0, instance:TestCase.CreateAccountTest@15d0c81b]" name="CreateReport" is-config="true" duration-ms="120" started-at="2021-02-20T16:21:39 CST" finished-at="2021-02-20T16:21:39 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateReport -->
-        <test-method status="PASS" signature="Initialize_The_Browser()[pri:0, instance:TestCase.CreateAccountTest@15d0c81b]" name="Initialize_The_Browser" is-config="true" duration-ms="5381" started-at="2021-02-12T20:55:55 CST" finished-at="2021-02-12T20:56:00 CST">
+        <test-method status="PASS" signature="Initialize_The_Browser()[pri:0, instance:TestCase.CreateAccountTest@15d0c81b]" name="Initialize_The_Browser" is-config="true" duration-ms="4821" started-at="2021-02-20T16:21:39 CST" finished-at="2021-02-20T16:21:44 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Initialize_The_Browser -->
-        <test-method status="PASS" signature="test_Create_Account()[pri:0, instance:TestCase.CreateAccountTest@15d0c81b]" name="test_Create_Account" duration-ms="5419" started-at="2021-02-12T20:56:00 CST" finished-at="2021-02-12T20:56:06 CST">
+        <test-method status="PASS" signature="test_Create_Account()[pri:0, instance:TestCase.CreateAccountTest@15d0c81b]" name="test_Create_Account" duration-ms="44730" started-at="2021-02-20T16:21:44 CST" finished-at="2021-02-20T16:22:29 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_Create_Account -->
-        <test-method status="PASS" signature="close_The_Browser()[pri:0, instance:TestCase.CreateAccountTest@15d0c81b]" name="close_The_Browser" is-config="true" duration-ms="803" started-at="2021-02-12T20:56:06 CST" finished-at="2021-02-12T20:56:06 CST">
+        <test-method status="PASS" signature="close_The_Browser()[pri:0, instance:TestCase.CreateAccountTest@15d0c81b]" name="close_The_Browser" is-config="true" duration-ms="733" started-at="2021-02-20T16:22:29 CST" finished-at="2021-02-20T16:22:29 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close_The_Browser -->
-        <test-method status="PASS" signature="CloseReport()[pri:0, instance:TestCase.CreateAccountTest@15d0c81b]" name="CloseReport" is-config="true" duration-ms="235" started-at="2021-02-12T20:56:06 CST" finished-at="2021-02-12T20:56:07 CST">
+        <test-method status="PASS" signature="CloseReport()[pri:0, instance:TestCase.CreateAccountTest@15d0c81b]" name="CloseReport" is-config="true" duration-ms="183" started-at="2021-02-20T16:22:29 CST" finished-at="2021-02-20T16:22:30 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseReport -->

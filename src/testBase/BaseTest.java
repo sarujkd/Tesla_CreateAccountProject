@@ -38,10 +38,10 @@ public class BaseTest {
 			} catch (IOException e) {
 				
 				e.printStackTrace();
-			
-			 
+						 
 			}  
 		}
+		
 		@BeforeMethod
 		public static void Initialize_The_Browser() throws IOException {
 			  

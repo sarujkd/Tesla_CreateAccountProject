@@ -92,6 +92,11 @@ public class CreateAccountPage extends BaseTest{
 	 public void Click_createAccntBtn(){
 		 createAccntBtn.click();
 	 }
+
+	public String getAccountPageTitle() {
+		return driver.getTitle();
+		
+	}
 }
 
 
