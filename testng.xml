@@ -1,9 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Tesla Suite">
-  <test  name="Tesla Create Account Test">
-    <classes>
-      <class name="TestCase.CreateAccountTest"/>
-    </classes>
-  </test> <!-- Test -->
+<suite name="Tesla Suite" parallel="tests" thread-count="2">
+
+	<listeners>
+		<listener class-name="listeners.Listeners"></listener>
+	</listeners>
+	<test name="Tesla Create Account Test on chrome">
+
+		<parameter name="browser" value="chrome" />
+
+		<classes>
+
+			<class name="com.cap.testCases.Google_Test" />
+
+		</classes>
+	</test> <!-- Test -->
+	<test name="Tesla Create Account Test on firefox">
+
+		<parameter name="browser" value="firefox" />
+
+		<classes>
+			<class name="com.cap.testCases.Google_Test" />
+
+		</classes>
+
+	</test> <!-- Test -->
+
+
 </suite> <!-- Suite -->

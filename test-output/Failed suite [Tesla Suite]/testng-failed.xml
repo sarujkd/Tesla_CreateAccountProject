@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Tesla Suite]]" parallel="tests">
+  <test thread-count="2" name="Tesla Create Account Test on chrome(failed)(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.cap.testCases.Google_Test">
+        <methods>
+          <include name="test_displayLogo"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="CreateReport"/>
+          <include name="CloseReport"/>
+        </methods>
+      </class> <!-- com.cap.testCases.Google_Test -->
+    </classes>
+  </test> <!-- Tesla Create Account Test on chrome(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Tesla Suite]] -->
